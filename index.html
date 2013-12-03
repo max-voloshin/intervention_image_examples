@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>intervention/image: Image handling and manipulation library</title>
+    <link href="vendor/twitter/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<h1><code>intervention/image</code> Image handling and manipulation library</h1><h2><code>$image -> resize(200)</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="resize.x.jpg" class="thumbnail"></div>
+</div><h2><code>$image -> resize(null, 200)</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="resize.null.x.jpg" class="thumbnail"></div>
+</div><h2><code>$image -> resize(200, 200)</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="resize.x.x.jpg" class="thumbnail"></div>
+</div><h2><code>$image -> resize(200, 200, true)</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="resize.x.x.true.jpg" class="thumbnail"></div>
+</div><h2><code>$image -> grab(200)</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="grab.x.jpg" class="thumbnail"></div>
+</div><h2><code>$image -> grab(100, 200)</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="grab.x.x.jpg" class="thumbnail"></div>
+</div><h2><code>$image -> crop(200, 200)</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="crop.x.x.jpg" class="thumbnail"></div>
+</div><h2><code>$image -> crop(200, 200, 0, 0)</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="crop.x.x.0.0.jpg" class="thumbnail"></div>
+</div><h2><code>$image -> brightness(50)</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="brightness.+x.jpg" class="thumbnail"></div>
+</div><h2><code>$image -> brightness(-50)</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="brightness.-x.jpg" class="thumbnail"></div>
+</div><h2><code>$image -> contrast(50)</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="contrast.+x.jpg" class="thumbnail"></div>
+</div><h2><code>$image -> contrast(-50)</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="contrast.-x.jpg" class="thumbnail"></div>
+</div><h2><code>$image -> grayscale()</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="grayscale.jpg" class="thumbnail"></div>
+</div><h2><code>$image -> invert()</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="invert.jpg" class="thumbnail"></div>
+</div><h2><code>$image -> colorize(50, 0, 0)</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="colorize.x.0.0.jpg" class="thumbnail"></div>
+</div><h2><code>$image -> colorize(0, 50, 0)</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="colorize.0.x.0.jpg" class="thumbnail"></div>
+</div><h2><code>$image -> colorize(0, 0, 50)</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="colorize.0.0.x.jpg" class="thumbnail"></div>
+</div><h2><code>$image -> pixelate(5)</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="pixelate.x.jpg" class="thumbnail"></div>
+</div><h2><code>$image -> blur(5)</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="blur.x.jpg" class="thumbnail"></div>
+</div><h2><code>$image -> limitColors(64)</code></h2>
+<div class="row">
+    <div class="col-md-6"><img src="photo.jpg" class="thumbnail"></div>
+    <div class="col-md-6"><img src="limitColors.x.jpg" class="thumbnail"></div>
+</div></body>
+</html>
